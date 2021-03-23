@@ -1,0 +1,130 @@
+<style type="text/css">
+	body{
+		background-image: url(https://www.conshohockeneye.com/wp-content/uploads/2020/03/dog-wearing-glasses-computer.jpg);
+		background-size: cover;
+	}
+
+	h1 {
+		background-color: #ffebcd;
+		background-color: rgba(255, 235, 205, .75);
+	}
+
+	
+
+	#title {
+		font-size: 34px;
+		text-align: center;
+	}
+
+	#description {
+		font-size: 13px;
+		text-align: center;
+		background-color: #ffebcd;
+		background-color: rgba(255, 235, 205, .75);
+	
+	}
+
+	/*form w id="survey-form"*/
+
+	#survey-form {
+
+	}
+
+	#name {
+
+	}
+	/*require an email w notification if formatted incorrectly*/
+	#email {
+
+	}
+	/*if non # validation error*/
+	#number {
+
+	}
+
+	#name-label {
+
+	}
+	#email-label {
+
+	}
+	#number-label {
+
+	}
+
+	#dropdown {
+
+	}
+	#submit {
+
+	}
+
+
+
+</style>
+
+<div>
+	<title>CS Survey Form</title>
+	<h1  id= "title">CS' Survey Form</h1>
+</div>
+
+<div>
+	<p id= "description">
+		survey to find out how many people perfer dogs to cats.
+</div>
+<div>
+	<form id= "survey-form">
+		<div>
+			<label id= "name-label" for="name">Name</label>
+			<input id= "name" type="text" required="#" name="name" placeholder="Name">
+		</div>
+		<div>
+			<label id= "email-label" for="email">Email</label>
+			<input id="email" type="email" required="" name="email" placeholder="Email">
+		</div>
+		<div>
+			<label id="number-label" for="number">Phone Number</label>
+			<input id="number" type="number" name="number" min="0" max="9899898989" placeholder="Phone#">
+		</div>
+
+		<div>
+			<label for="catsordogs">Do you perfer Cats or Dogs?</label>
+			<select id= "dropdown" name= "catsordogs">
+				<option >Cats are Superior!</option>
+				<option value="dogs">Dogs are the best!</option>
+				<option value="both">Both are Sweethearts!</option>
+			</select>
+		</div>
+		<div>Whats cooler?
+			<label for="cats"> 
+  				<input type="radio" name="cats-dogs-both" value="cats">Cats 
+			</label>
+			<label for="dogs"> 
+  				<input type="radio" name="cats-dogs-both" value="dogs">Dogs 
+			</label>
+			<label for="both"> 
+  				<input type="radio" name="cats-dogs-both" value="both">Both 
+			</label>
+		</div>
+		<div>
+			<label for="dogs">
+				<input type="checkbox" name="personality" value="Dogs"> Dogs are more Lovey</label>
+			<label for="cats">
+				<input type="checkbox" name="personality" value="Cats"> Cats are more Lovey</label>
+			<label for="all">
+				<input type="checkbox" name="personality" value="All"> All are Lovey</label>
+
+		</div>
+		<div>
+			<textarea name="additional comments" placeholder="Additional Comments">
+				
+			</textarea>
+		</div>
+		<div>
+			<button id="submit" type="submit">submit form</button>
+		</div>
+
+
+	</form>
+</div>
+
