@@ -31,7 +31,7 @@
 				top: 0;
 				left: 0;
 				width: 100%;
-				height: 75px;
+				height: 100px;
 				background: #248f8f;
 				
 				
@@ -39,6 +39,10 @@
 			}
 			#welcome-section {
 				height: 100vh;
+
+			}
+			#welcome-container {
+				grid-template-rows: 
 
 			}
 			#projects {
@@ -78,6 +82,11 @@
 			.navbar li a:hover {
 				background-color: #111;
 
+			}
+			.navbar-img {
+				height: 50px;
+				width: 50px;
+				float: left;
 			}
 			.project-tile {
 				
@@ -133,6 +142,7 @@
 	<body>
 		<div>
 		<nav id="navbar" class="navbar li navbar li a navbar li a:hover">
+			<img src="/home/lazy-panda/Panda/CS_Designs/Logo/blckcsdwi_logo.jpg">
 			<li> <a class="nav-link" href="#contact"> Contact</a></li>
 			<li> <a class="nav-link" href="#profile">Profile </a> </li>
 			<li> <a class="nav-link" href="#projects"> Projects </a> </li>
@@ -144,8 +154,13 @@
 				<div>
 				<section id="welcome-section">
 					<h1>Welcome</h1>
+					<p>
+						At CS Designs 307 we specialize in the ever evolving computer industry. 
+					</p>
+					<p id="welcome-container"></p>
 				</section>
 				</div>
+				
 				<div>
 				<section id="projects">
 					<h1>Here are some of the projects I have completed</h1>
